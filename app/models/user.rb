@@ -1,3 +1,4 @@
+
 class User < ActiveRecord::Base
 
 	attr_accessible :username , :email , :password , :password_confirmation 
@@ -14,8 +15,6 @@ class User < ActiveRecord::Base
                     uniqueness: { case_sensitive: false }
   validates :password, presence: true, length: { minimum: 6 }
   validates :password_confirmation, presence: true
-
-private
 
   def create_remember_token
     # Create the token.
