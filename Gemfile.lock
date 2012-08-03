@@ -147,18 +147,18 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bcrypt-ruby (= 3.0.1)
-  bootstrap-sass (= 2.0.0)
-  bootstrap-will_paginate (= 0.0.6)
+  bcrypt-ruby
+  bootstrap-sass
+  bootstrap-will_paginate
   capybara (= 1.1.2)
-  coffee-rails (= 3.2.2)
-  faker (= 1.0.1)
+  coffee-rails
+  faker
   jquery-rails (= 2.0.0)
   pg
   rails
   rspec-rails (= 2.10.0)
-  sass-rails (= 3.2.4)
+  sass-rails
   sqlite3 (= 1.3.5)
   tzinfo
-  uglifier (= 1.2.3)
-  will_paginate (= 3.0.3)
+  uglifier
+  will_paginate
